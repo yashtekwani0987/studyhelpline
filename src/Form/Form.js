@@ -2850,7 +2850,7 @@ const Step4 = (props) => {
 
                 
 
-                <button onClick={submit}>Submit</button>
+                {/* <button onClick={submit}>Submit</button> */}
 
                 <div className='w-full'>
                     <button onClick={addFields} className='flex mx-auto py-2 bg-blue-400 px-2 rounded'><svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -2928,7 +2928,7 @@ const onSubmit = ()=>{
                         </label></label> </h1>
                 </div>
 
-              <button onClick={onSubmit} className='p-4'> click me</button>
+              {/* <button onClick={onSubmit} className='p-4'> click me</button> */}
                 <div className='mt-4 flex justify-between p-6'>
                     <button className='bg-blue-500 text-white rounded p-2' onClick={props.handleBack} >	&larr; Back</button>
                     <button className='bg-blue-500 text-white rounded p-2' onClick={props.handleNext}> Next &rarr;</button>
